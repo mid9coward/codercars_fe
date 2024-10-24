@@ -40,11 +40,7 @@ const HomePage = () => {
     }
   };
   const name =
-    selectedCar?.release_date +
-    " " +
-    selectedCar?.make +
-    " " +
-    selectedCar?.model;
+    selectedCar?.Year + " " + selectedCar?.Make + " " + selectedCar?.Model;
   const columns = [
     { field: "name", headerName: "Name", flex: 3, minWidth: 120 },
     { field: "style", headerName: "Style", flex: 1, minWidth: 120 },
